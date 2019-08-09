@@ -12,7 +12,7 @@ int main() {
   yv.load("data.txt");
   // 2/ Number of lambdas along the solution path at which we solve the GFL problem
   int len=100;
-  // The whole solution path for the GFL will be saved in "GFLresult.txt"
+  // The whole solution path for the GFL will be saved in "GFL_altmin.txt"
 
   double eps = 0.0001;
   double eps2 = 0.00000001;
@@ -211,5 +211,5 @@ int main() {
     lag1 = diff(thetas,1,1);
     newlag1=lag1;
   }
-  thetas1.save("GFLresult.txt", arma_ascii);
+  thetas1.save("GFL_altmin.txt", arma_ascii);
 }
