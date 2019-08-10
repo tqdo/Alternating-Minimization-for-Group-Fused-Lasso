@@ -1,5 +1,6 @@
 # Group Fused Lasso in C++
-This repository contains two efficient algorithms to solve the Group Fused Lasso (Bleakley & Vert, 2011) problem. 
+Two efficient algorithms to solve the Group Fused Lasso (Bleakley & Vert, 2011) problem. 
+
 The first one solves the primal problem using Alternating Minimization algorithm.
 The second one solves the dual problem using Block coordinate descent.
 
